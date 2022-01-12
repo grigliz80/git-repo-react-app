@@ -1,14 +1,26 @@
 import { Route } from 'react-router-dom'
 import './App.css'
+import Wellcome from './pages/Wellcome'
+import Products from './pages/Products'
+import MainHeader from './components/MainHeader'
+import ProductDetail from './pages/ProductDetail'
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Let's get started skazhu ya</h1>
-      <section>
-        <p>Here will a new Component</p>
-      </section>
+    <div>
+      <MainHeader />
+      <main>
+        <Route path='/wellcome'>
+          <Wellcome />
+        </Route>
+        <Route path='/products'>
+          <Products />
+        </Route>
+        <Route path='/product-detail/:productId'>
+          <ProductDetail />
+        </Route>
+      </main>
     </div>
   )
 }
