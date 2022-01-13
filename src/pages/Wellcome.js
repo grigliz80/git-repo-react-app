@@ -1,10 +1,13 @@
-
+import { Route } from 'react-router-dom'
 
 const Wellcome = () => {
     return(
-        <div>
+        <section>
             <h1>The Wellcome Page</h1>
-        </div>
+            <Route path='/wellcome/new-user'>
+                <p>Wellcome, new User!</p>
+            </Route>
+        </section>
     )
 }
 
