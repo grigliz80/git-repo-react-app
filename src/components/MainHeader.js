@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import classes from './MainHeader.module.css'
 
 const MainHeader = () => {
@@ -6,16 +5,12 @@ const MainHeader = () => {
         <header className={classes.header}>
             <nav>
                 <ul>
-                    <li>
-                        <NavLink activeClassName={classes.active} to='/wellcome'>
-                            GRIGORIY  WELLCOME 
-                        </NavLink>
+                    <li>                       
+                            LOGIN
                     </li>
-                    <li>
-                        <NavLink activeClassName={classes.active} to='/products'>
-                            LIST  WORDS
-                        </NavLink>
-                    </li>
+                    <li>                       
+                            GAME
+                   </li>
                 </ul>
             </nav>
         </header>
