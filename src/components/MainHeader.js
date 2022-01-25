@@ -8,12 +8,12 @@ const MainHeader = () => {
                 <ul>
                     <li>
                         <NavLink activeClassName={classes.active} to='/wellcome'>
-                            WELLCOME GRIGORIY
+                            WELLCOME GRIGORIY GRIGORIEVICH
                         </NavLink>
                     </li>
                     <li>
                         <NavLink activeClassName={classes.active} to='/products'>
-                            WORDS LIST
+                            WORDS LIST SECTION
                         </NavLink>
                     </li>
                 </ul>
