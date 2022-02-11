@@ -3,6 +3,7 @@
     height: 5rem;
     display: flex;
     align-items: center;
+    overflow: hidden;
     justify-content: space-between;
     background-color: #124b96;
     padding: 2%;

@@ -1,0 +1,34 @@
+.general {
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.general input {
+	width: 30px;
+	height: 30px;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50%;
+	padding: 4px 8px;
+	background: #aaa;
+	color: #333;
+	font-size: 14px;
+}
+
+.general input:checked {
+	background-color: #338e72;
+	color: #fff;
+	box-shadow: 0 1px 1px #0000002e;
+	text-shadow: 0 1px 0px #79485f7a;
+}
+
+.general input:before {
+	content: attr(label);
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}

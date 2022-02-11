@@ -1,13 +1,11 @@
 import classes from './NavLang.module.css'
+import LangItemInput from './LangItemInput'
 
 const NavLang = (props) => {
     return (
         <nav className={`${classes['nav-lang']} ${props.className}`} style={props.style}>
             <ul>
-                <li>UK</li>
-                <li>RU</li>
-                <li>EN</li>
-                <li>HU</li>
+                <LangItemInput />
             </ul>
         </nav>
     )
